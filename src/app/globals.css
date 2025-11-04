@@ -1,15 +1,86 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
 
-@theme inline {
+:root {
+  --logo-color1: #4f46e5; /* Indigo 600 */
+  --logo-color2: #3b82f6; /* Blue 500 */
+  /* Text Colors */
+  --primary-text: #09090b;
+  --secondary-text: #f3f4f6;
+  --secondary2-text: #f3f4f6;
+  --tertiary-text: #444444;
+  --quaternary-text: #b4b4b4;
+  /* BG */
+  --background: #f3f4f6;
+  --background2: #f3f4f6;
+  --secondary-background: #0a0a0a;
+  /* BG shades */
+  --bg-shade-1: #e5e7eb;
+  --bg-shade-2: #d4d4d8;
+  --bg-shade-3: #a1a1aa;
+  --bg-shade-4: #71717a;
+  /* BG dark shades */
+  --bg-dark-shade-1: #4b5563;
+  --bg-dark-shade-2: #374151;
+  --bg-dark-shade-3: #1f2937;
+  --bg-dark-shade-4: #111827;
+  /* Primary Accent Colors (e.g., Indigo) */
+  --primary-accent: #4f46e5; /* Indigo 600 */
+  --primary-accent-hover: #4338ca; /* Indigo 700 */
+  --primary-accent-light: #e0e7ff; /* Indigo 100 */
+  /* Secondary Accent Colors (e.g., Blue for Update) */
+  --secondary-accent: #3b82f6; /* Blue 500 */
+  /* Danger/Delete Color (e.g., Red) */
+  --danger-color: #ef4444; /* Red 500 */
+  /* Success/Quiz Info Color (e.g., Green) */
+  --success-color: #10b981; /* Green 500 */
+
+  /* Form */
+  --form-background: #171717;
+  --form-border: #262626;
+  --form-secondary-border: #868686;
+  --form-foreground: #0a0a0a;
+  /* Dashboard */
+  --dashboard-background: #e4e4e4;
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  /* Card colors */
+  --card-background: #f5f0f0;
+  --card-foreground: oklch(0.145 0 0);
+  --card-border: #eeeeee;
+  --radius: 0.625rem;
+  --background: oklch(1 0 0);
+  --foreground: oklch(0.145 0 0);
+  --card: oklch(1 0 0);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.145 0 0);
+  --primary: oklch(0.205 0 0);
+  --primary-foreground: oklch(0.985 0 0);
+  --secondary: oklch(0.97 0 0);
+  --secondary-foreground: oklch(0.205 0 0);
+  --muted: oklch(0.97 0 0);
+  --muted-foreground: oklch(0.556 0 0);
+  --accent: oklch(0.97 0 0);
+  --accent-foreground: oklch(0.205 0 0);
+  --destructive: oklch(0.577 0.245 27.325);
+  --border: oklch(0.922 0 0);
+  --input: oklch(0.922 0 0);
+  --ring: oklch(0.708 0 0);
+  --chart-1: oklch(0.646 0.222 41.116);
+  --chart-2: oklch(0.6 0.118 184.704);
+  --chart-3: oklch(0.398 0.07 227.392);
+  --chart-4: oklch(0.828 0.189 84.429);
+  --chart-5: oklch(0.769 0.188 70.08);
+  --sidebar: oklch(0.985 0 0);
+  --sidebar-foreground: oklch(0.145 0 0);
+  --sidebar-primary: oklch(0.205 0 0);
+  --sidebar-primary-foreground: oklch(0.985 0 0);
+  --sidebar-accent: oklch(0.97 0 0);
+  --sidebar-accent-foreground: oklch(0.205 0 0);
+  --sidebar-border: oklch(0.922 0 0);
+  --sidebar-ring: oklch(0.708 0 0);
 }
 
 @media (prefers-color-scheme: dark) {
